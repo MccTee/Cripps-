@@ -101,10 +101,6 @@ bot.on('message', message=>{
                 bot.commands.get('infoFrom').execute(message, args);
             break;
 
-            case "test":
-                bot.commands.get('test').execute(message, args);
-            break;
-
     
     }
 });
