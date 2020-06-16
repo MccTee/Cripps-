@@ -12,6 +12,8 @@ module.exports = {
         .addField("-Weekly set:", "https://jeanropke.github.io/RDR2CollectorsMap/")
         .addField("-Animal Maps:", "https://jeanropke.github.io/RDOMap/")
         .addField("-Animal Descriptions:", "https://rankedboost.com/red-dead-redemption-2/hunting-wildlife-fishing/ ; https://www.ign.com/wikis/red-dead-redemption-2/")
+        .addField("-Plant Maps:", "https://jeanropke.github.io/RDOMap/")
+        .addField("-Plant Descriptions:", "https://rankedboost.com/red-dead-redemption-2/plants/ ; https://reddead.fandom.com/wiki/Plant_Gathering_in_Redemption" )
     message.channel.send(infoFromEmbed);
 
     }
