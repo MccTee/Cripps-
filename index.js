@@ -33,6 +33,10 @@ bot.on('message', message=>{
                 bot.commands.get('Madam Nazar').execute(message, args);
             break;
 
+            case "weeklySet":
+                bot.commands.get('Weekly Set').execute(message, args);
+            break;
+
 //ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS ANIMALS
 
             case "alligator":
