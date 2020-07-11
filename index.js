@@ -21,7 +21,7 @@ bot.on('ready', () =>{
     bot.user.setActivity('Red Dead Help');     
 })
 
-bot.login(porcess.env.token);
+bot.login(process.env.token);
 
 bot.on('message', message=>{
 
